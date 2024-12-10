@@ -1,0 +1,33 @@
+:root{
+	--primary:#8e2060;
+	--gradient: linear-gradient(to right,#53064D 0,#53064D 51%,#53064D 100%);
+	--gradientY: linear-gradient(to top,#ef146e 0,#fea958 100%,#ef146e 100%);
+	--gradient-sec: linear-gradient(to right,#560650 0,#27001B 51%,#27001B 100%);
+	--quote: url();
+	--primary-hover: #d40c5e;
+	--primary-dark: #631032;
+	--rgba-primary-05: rgba(240, 31, 117, 0.05);
+	--rgba-primary-1: rgba(240, 31, 117, 0.1);
+	--rgba-primary-2: rgba(240, 31, 117, 0.2);
+	--rgba-primary-3: rgba(240, 31, 117, 0.3);
+	--rgba-primary-4: rgba(240, 31, 117, 0.4);
+	--rgba-primary-5: rgba(240, 31, 117, 0.5);
+	--rgba-primary-6: rgba(240, 31, 117, 0.6);
+	--rgba-primary-7: rgba(240, 31, 117, 0.7);
+	--rgba-primary-8: rgba(240, 31, 117, 0.8);
+	--rgba-primary-9: rgba(240, 31, 117, 0.9);
+}
+.gradient{
+	 background-image:var(--gradient); 
+}
+body{
+	color:#393939;	
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{
+	color:#000;
+}
+.site-footer.style-3 .footer-bottom{
+	background:#0095dc;
+}
+
+
